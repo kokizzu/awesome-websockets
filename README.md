@@ -307,7 +307,7 @@ A curated list of WebSockets related principles and technologies.
 
 - [RFC6455](https://www.rfc-editor.org/rfc/rfc6455) - The WebSocket Protocol.
 - [The WebSocket API](https://websockets.spec.whatwg.org) - WebSockets - Living Standard.
-- [TikTok-Live-Connector](https://github.com/zerodytrash/TikTok-Live-Connector/) - Open source TikTok LIVE stream events API, with delivery over WebSocket. The predominent & native TypeScript library for TikTok LIVE integrations.
+- [TikTok-Live-Connector](https://github.com/zerodytrash/TikTok-Live-Connector/) - Open source TikTok LIVE stream events API, with delivery over WebSocket. The predominant & native TypeScript library for TikTok LIVE integrations.
 - [TikTool Live](https://tik.tools/docs) - Real-time TikTok LIVE stream events (chat, gifts, viewers) via WebSocket. SDKs for [Node.js](https://www.npmjs.com/package/tiktok-live-api) and [Python](https://pypi.org/project/tiktok-live-api/).
 
 
