@@ -309,6 +309,7 @@ A curated list of WebSockets related principles and technologies.
 - [The WebSocket API](https://websockets.spec.whatwg.org) - WebSockets - Living Standard.
 - [TikTok-Live-Connector](https://github.com/zerodytrash/TikTok-Live-Connector/) - Open source TikTok LIVE stream events API, with delivery over WebSocket. The predominant & native TypeScript library for TikTok LIVE integrations.
 - [TikTokLive](https://github.com/isaackogan/TikTokLive/) - A TikTok LIVE API Client built in Python, with strict mypy type safety & a copyleft license. Real-time TikTok LIVE stream events (gifts, chats, etc.) over WebSocket.
+- [TikTokLiveJava](https://github.com/jwdeveloper/TikTokLiveJava) - A TikTok LIVE API Client built in Java. Real-time TikTok LIVE stream events (gifts, chats, etc.) over WebSockets.
 - [TikTool Live](https://tik.tools/docs) - Real-time TikTok LIVE stream events (chat, gifts, viewers) via WebSocket. SDKs for [Node.js](https://www.npmjs.com/package/tiktok-live-api) and [Python](https://pypi.org/project/tiktok-live-api/).
 
 ## Managed / Hosted Services
