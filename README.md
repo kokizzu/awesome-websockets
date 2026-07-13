@@ -61,6 +61,7 @@ A curated list of WebSockets related principles and technologies.
 - [gwsocket](https://github.com/allinurl/gwsocket) - Fast, standalone, language-agnostic WebSocket server RFC6455 compliant.
 - [MinnowServer](https://github.com/RealTimeLogic/MinnowServer) - A super small and fast embedded HTTP(S) WebSocket server.
 - [Nchan](https://nchan.slact.net) - Nchan is a scalable, flexible pub/sub server for the modern web, built as a module for the Nginx web server.
+- [SocketCluster](https://github.com/SocketCluster/socketcluster) - Scalable pub/sub WebSocket framework with support for horizontal scaling across multiple hosts and processes.
 - [Websocketd](http://websocketd.com) - WebSockets the UNIX way - Full duplex messaging between web browsers and servers.
 
 ### Ballerina
@@ -171,9 +172,11 @@ A curated list of WebSockets related principles and technologies.
 - [Atmosphere](https://github.com/Atmosphere/atmosphere) - Realtime Client Server Framework for the JVM, supporting WebSockets with Cross-Browser Fallbacks.
 - [Javalin](https://github.com/javalin/javalin) - Lightweight web framework for Java and Kotlin with simple WebSocket handlers.
 - [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket) - Barebones WebSocket client and server implementation written in 100% Java.
+- [Jetty](https://github.com/jetty/jetty.project) - Lightweight, embeddable Java web server and servlet container with Jakarta and native WebSocket support.
 - [Netty](https://github.com/netty/netty) - Asynchronous event-driven network framework with full WebSocket codec support.
 - [nv-websocket-client](https://github.com/TakahikoKawasaki/nv-websocket-client) - High-quality WebSocket client implementation in Java which.
 - [Project Tyrus](https://github.com/eclipse-ee4j/tyrus) - JSR 356: Java API for WebSocket - Reference Implementation.
+- [Spring WebSocket](https://docs.spring.io/spring-framework/reference/web/websocket.html) - WebSocket and STOMP messaging support built into the Spring Framework.
 - [Undertow](https://github.com/undertow-io/undertow) - High-performance web server (WildFly's core) with a dedicated WebSocket API.
 - [Vert.x](https://github.com/eclipse-vertx/vert.x) - Reactive, polyglot toolkit for the JVM with first-class WebSocket client and server APIs.
 - [Webbit](https://github.com/webbit/webbit) - Java event based WebSocket and HTTP server.
@@ -243,8 +246,10 @@ A curated list of WebSockets related principles and technologies.
 
 ### Python
 
+- [aiohttp](https://github.com/aio-libs/aiohttp) - Asynchronous HTTP client/server framework for asyncio, with built-in WebSocket client and server support.
 - [Autobahn.ws](https://github.com/crossbario/autobahn-python) - Open-source real-time framework for Web, Mobile & Internet of Things.
 - [Django Channels](https://channels.readthedocs.io/en/latest) - Extends [Django](https://www.djangoproject.com/) with  WebSocket, long-poll HTTP, task offloading and other async support.
+- [FastAPI](https://github.com/fastapi/fastapi) - Modern, high-performance web framework for building APIs, with first-class WebSocket support.
 - [Picows](https://picows.readthedocs.io/en/stable/) - Ultra-fast WebSocket client and server library for asyncio.
 - [python-socketio](https://github.com/miguelgrinberg/python-socketio) - Python implementation of the Socket.IO realtime client and server.
 - [python-websocket-server](https://github.com/Pithikos/python-websocket-server) - Minimal, dependency-free WebSocket server written in pure Python.
@@ -284,6 +289,7 @@ A curated list of WebSockets related principles and technologies.
 
 - [Actix](https://actix.rs/docs/websockets) - A Rust web framework with support for the Websocket Protocol 
 - [async-tungstenite](https://github.com/sdroege/async-tungstenite) - Async binding for Tungstenite, runtime-agnostic across async-std, tokio, and smol.
+- [Axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper, with built-in WebSocket support.
 - [Fastwebsockets](https://github.com/denoland/fastwebsockets) - A fast RFC6455 WebSocket server implementation 
 - [ntex](https://github.com/ntex-rs/ntex) - Powerful, pragmatic and fast web framework with WebSocket support.
 - [Ratchet](https://github.com/swimos/ratchet) - Ratchet is a fast, lightweight and fully asynchronous implementation of the WebSocket protocol with support for extensions and Deflate.
@@ -291,6 +297,7 @@ A curated list of WebSockets related principles and technologies.
 - [tide-websockets](https://github.com/http-rs/tide-websockets) - WebSocket handler for the Tide web framework.
 - [Tokio-Tungstenite](https://github.com/snapview/tokio-tungstenite) - Tokio binding for Tungstenite, the Lightweight stream-based WebSocket implementation
 - [Tungstenite](https://github.com/snapview/tungstenite-rs) - Lightweight stream-based WebSocket implementation
+- [warp](https://github.com/seanmonstar/warp) - Composable, Tokio-based web server framework with a WebSocket filter.
 - [Websocket Core](https://github.com/bitwyre/websocket_core) - Rust Websocket server for periodic message broadcast
 - [wtx](https://github.com/c410-f3r/wtx) - Client and server with encryption support.
 
@@ -306,11 +313,14 @@ A curated list of WebSockets related principles and technologies.
 ### Protocols and APIs
 
 - [RFC6455](https://www.rfc-editor.org/rfc/rfc6455) - The WebSocket Protocol.
+- [RFC7692](https://www.rfc-editor.org/rfc/rfc7692) - Compression Extensions for WebSocket (permessage-deflate).
+- [RFC8441](https://www.rfc-editor.org/rfc/rfc8441) - Bootstrapping WebSockets with HTTP/2.
 - [The WebSocket API](https://websockets.spec.whatwg.org) - WebSockets - Living Standard.
 - [TikTokLive](https://github.com/isaackogan/TikTokLive/) - A TikTok LIVE API Client built in Python, with strict mypy type safety & a copyleft license. Real-time TikTok LIVE stream events (gifts, chats, etc.) over WebSocket.
 - [TikTok-Live-Connector](https://github.com/zerodytrash/TikTok-Live-Connector/) - Open source TikTok LIVE stream events API, with delivery over WebSocket. The predominant & native TypeScript library for TikTok LIVE integrations.
 - [TikTokLiveJava](https://github.com/jwdeveloper/TikTokLiveJava) - A TikTok LIVE API Client built in Java. Real-time TikTok LIVE stream events (gifts, chats, etc.) over WebSockets.
 - [TikTool Live](https://tik.tools/docs) - Real-time TikTok LIVE stream events (chat, gifts, viewers) via WebSocket. SDKs for [Node.js](https://www.npmjs.com/package/tiktok-live-api) and [Python](https://pypi.org/project/tiktok-live-api/).
+- [WAMP](https://wamp-proto.org) - The Web Application Messaging Protocol: routed RPC and publish/subscribe over WebSocket.
 
 ## Managed / Hosted Services
 
